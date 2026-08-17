@@ -1,13 +1,13 @@
 const PRODUCTS = [
   {
     "id": 1,
-    "name": "Noor Lawn Elegance",
+    "name": "Sahar Ivory Bloom",
     "category": "lawn",
     "categoryName": "Lawn Collection",
     "price": 3499,
-    "description": "An elegant printed lawn ensemble designed for effortless everyday sophistication.",
+    "description": "Printed lawn shalwar kameez with a chiffon dupatta in matching sage florals.",
     "fabric": "Premium Lawn",
-    "color": "Ivory",
+    "color": "Ivory & Sage",
     "sizes": [
       "XS",
       "S",
@@ -25,11 +25,11 @@ const PRODUCTS = [
   },
   {
     "id": 2,
-    "name": "Sahar Printed Lawn",
+    "name": "Meher Blush Garden",
     "category": "lawn",
     "categoryName": "Lawn Collection",
     "price": 4099,
-    "description": "A breathable lawn suit with a delicate floral print for warm afternoons.",
+    "description": "Three piece blush lawn suit with rose garden print and a soft printed dupatta.",
     "fabric": "Printed Lawn",
     "color": "Blush Pink",
     "sizes": [
@@ -38,9 +38,9 @@ const PRODUCTS = [
       "L",
       "XL"
     ],
-    "image": "./images/lawn-01.jpg",
+    "image": "./images/lawn-02.jpg",
     "images": [
-      "./images/lawn-01.jpg"
+      "./images/lawn-02.jpg"
     ],
     "badge": "new",
     "popularity": 93,
@@ -48,22 +48,22 @@ const PRODUCTS = [
   },
   {
     "id": 3,
-    "name": "Meher Daily Lawn",
+    "name": "Zoya Indigo Block",
     "category": "lawn",
     "categoryName": "Lawn Collection",
     "price": 4599,
-    "description": "Soft pastel lawn with fine thread detailing along the neckline.",
-    "fabric": "Embroidered Lawn",
-    "color": "Sage Green",
+    "description": "Indigo block printed lawn suit with plain white trousers and block print dupatta.",
+    "fabric": "Cotton Lawn",
+    "color": "Indigo Blue",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/lawn-01.jpg",
+    "image": "./images/lawn-03.jpg",
     "images": [
-      "./images/lawn-01.jpg"
+      "./images/lawn-03.jpg"
     ],
     "badge": "",
     "popularity": 86,
@@ -71,13 +71,13 @@ const PRODUCTS = [
   },
   {
     "id": 4,
-    "name": "Zoya Floral Lawn",
+    "name": "Aiza Mint Chikankari",
     "category": "lawn",
     "categoryName": "Lawn Collection",
     "price": 5199,
-    "description": "A refined three piece lawn suit balancing comfort and grace.",
-    "fabric": "Cotton Lawn",
-    "color": "Powder Blue",
+    "description": "Mint lawn kameez with white chikankari embroidery and a scalloped net dupatta.",
+    "fabric": "Embroidered Lawn",
+    "color": "Mint Green",
     "sizes": [
       "S",
       "M",
@@ -85,9 +85,9 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/lawn-01.jpg",
+    "image": "./images/lawn-04.jpg",
     "images": [
-      "./images/lawn-01.jpg"
+      "./images/lawn-04.jpg"
     ],
     "badge": "best",
     "popularity": 79,
@@ -95,13 +95,13 @@ const PRODUCTS = [
   },
   {
     "id": 5,
-    "name": "Aiza Embroidered Lawn",
+    "name": "Rida Lilac Paisley",
     "category": "lawn",
     "categoryName": "Lawn Collection",
     "price": 5699,
-    "description": "Lightweight lawn with subtle embroidery for a quietly luxurious look.",
+    "description": "Lilac paisley print lawn three piece with cotton trousers and printed dupatta.",
     "fabric": "Slub Lawn",
-    "color": "Soft Beige",
+    "color": "Lilac",
     "sizes": [
       "XS",
       "S",
@@ -109,9 +109,9 @@ const PRODUCTS = [
       "L",
       "XL"
     ],
-    "image": "./images/lawn-01.jpg",
+    "image": "./images/lawn-05.jpg",
     "images": [
-      "./images/lawn-01.jpg"
+      "./images/lawn-05.jpg"
     ],
     "badge": "",
     "popularity": 72,
@@ -119,22 +119,22 @@ const PRODUCTS = [
   },
   {
     "id": 6,
-    "name": "Rida Pastel Lawn",
+    "name": "Inaya Sunlit Stripe",
     "category": "lawn",
     "categoryName": "Lawn Collection",
     "price": 6299,
-    "description": "A gentle everyday lawn design finished with a matching dupatta.",
+    "description": "Striped mustard lawn suit with contrast cream sleeves and printed lawn dupatta.",
     "fabric": "Premium Lawn",
-    "color": "Lilac",
+    "color": "Mustard & Cream",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/lawn-01.jpg",
+    "image": "./images/lawn-06.jpg",
     "images": [
-      "./images/lawn-01.jpg"
+      "./images/lawn-06.jpg"
     ],
     "badge": "",
     "popularity": 65,
@@ -142,22 +142,22 @@ const PRODUCTS = [
   },
   {
     "id": 7,
-    "name": "Inaya Summer Lawn",
+    "name": "Hoor Powder Blue Buti",
     "category": "lawn",
     "categoryName": "Lawn Collection",
     "price": 6899,
-    "description": "Crisp lawn fabric with an understated geometric print.",
-    "fabric": "Printed Lawn",
-    "color": "Ivory",
+    "description": "Powder blue lawn kameez covered in fine buti motifs with a plain chiffon dupatta.",
+    "fabric": "Cotton Lawn",
+    "color": "Powder Blue",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/lawn-01.jpg",
+    "image": "./images/lawn-07.jpg",
     "images": [
-      "./images/lawn-01.jpg"
+      "./images/lawn-07.jpg"
     ],
     "badge": "best",
     "popularity": 98,
@@ -165,13 +165,13 @@ const PRODUCTS = [
   },
   {
     "id": 8,
-    "name": "Hoor Classic Lawn",
+    "name": "Sana Terracotta Leaf",
     "category": "lawn",
     "categoryName": "Lawn Collection",
     "price": 7399,
-    "description": "A calm, minimal lawn suit made for long summer days.",
-    "fabric": "Embroidered Lawn",
-    "color": "Blush Pink",
+    "description": "Beige lawn suit with terracotta leaf print and matching printed dupatta.",
+    "fabric": "Printed Lawn",
+    "color": "Terracotta",
     "sizes": [
       "S",
       "M",
@@ -179,45 +179,21 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/lawn-01.jpg",
+    "image": "./images/lawn-08.jpg",
     "images": [
-      "./images/lawn-01.jpg"
+      "./images/lawn-08.jpg"
     ],
     "badge": "",
     "popularity": 91,
     "added": 993
   },
   {
-    "id": 9,
-    "name": "Sana Garden Lawn",
-    "category": "lawn",
-    "categoryName": "Lawn Collection",
-    "price": 7999,
-    "description": "An elegant printed lawn ensemble designed for effortless everyday sophistication.",
-    "fabric": "Cotton Lawn",
-    "color": "Sage Green",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/lawn-01.jpg",
-    "images": [
-      "./images/lawn-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 84,
-    "added": 992
-  },
-  {
     "id": 10,
-    "name": "Aira Ready To Wear Kurta",
+    "name": "Aira Off White Kurta",
     "category": "pret",
     "categoryName": "Pret Collection",
     "price": 2999,
-    "description": "A ready to wear kurta cut for a clean, modern silhouette.",
+    "description": "Straight cambric kurta with pintuck panels, worn with slim cigarette pants.",
     "fabric": "Cambric",
     "color": "Off White",
     "sizes": [
@@ -237,22 +213,22 @@ const PRODUCTS = [
   },
   {
     "id": 11,
-    "name": "Sana Straight Kurta",
+    "name": "Sana Charcoal Straight",
     "category": "pret",
     "categoryName": "Pret Collection",
     "price": 3699,
-    "description": "A versatile pret piece that moves easily from day to evening.",
+    "description": "Charcoal viscose straight kurta with gold buttons and straight trousers.",
     "fabric": "Viscose",
-    "color": "Charcoal",
+    "color": "Charcoal Grey",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/pret-01.jpg",
+    "image": "./images/pret-02.jpg",
     "images": [
-      "./images/pret-01.jpg"
+      "./images/pret-02.jpg"
     ],
     "badge": "new",
     "popularity": 90,
@@ -260,11 +236,11 @@ const PRODUCTS = [
   },
   {
     "id": 12,
-    "name": "Layla Everyday Pret",
+    "name": "Layla Dusty Rose Panel",
     "category": "pret",
     "categoryName": "Pret Collection",
     "price": 4499,
-    "description": "Simple tailoring with fine finishing for daily elegance.",
+    "description": "Dusty rose khaddar kurta with ivory panelling and matching shalwar.",
     "fabric": "Khaddar",
     "color": "Dusty Rose",
     "sizes": [
@@ -273,9 +249,9 @@ const PRODUCTS = [
       "M",
       "L"
     ],
-    "image": "./images/pret-01.jpg",
+    "image": "./images/pret-03.jpg",
     "images": [
-      "./images/pret-01.jpg"
+      "./images/pret-03.jpg"
     ],
     "badge": "",
     "popularity": 83,
@@ -283,11 +259,11 @@ const PRODUCTS = [
   },
   {
     "id": 13,
-    "name": "Amal Minimal Kurta",
+    "name": "Amal Navy Thread",
     "category": "pret",
     "categoryName": "Pret Collection",
     "price": 5199,
-    "description": "A relaxed straight kurta with softly tapered sleeves.",
+    "description": "Navy linen kurta with white thread embroidered neckline and tapered trousers.",
     "fabric": "Linen Blend",
     "color": "Navy",
     "sizes": [
@@ -297,9 +273,9 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/pret-01.jpg",
+    "image": "./images/pret-04.jpg",
     "images": [
-      "./images/pret-01.jpg"
+      "./images/pret-04.jpg"
     ],
     "badge": "best",
     "popularity": 76,
@@ -307,11 +283,11 @@ const PRODUCTS = [
   },
   {
     "id": 14,
-    "name": "Zara Tunic Pret",
+    "name": "Zara Camel Tunic",
     "category": "pret",
     "categoryName": "Pret Collection",
     "price": 5999,
-    "description": "Understated pret with a delicate placket detail.",
+    "description": "Camel A-line tunic with tonal top stitching, straight pants and a light stole.",
     "fabric": "Cambric",
     "color": "Camel",
     "sizes": [
@@ -321,9 +297,9 @@ const PRODUCTS = [
       "L",
       "XL"
     ],
-    "image": "./images/pret-01.jpg",
+    "image": "./images/pret-05.jpg",
     "images": [
-      "./images/pret-01.jpg"
+      "./images/pret-05.jpg"
     ],
     "badge": "",
     "popularity": 69,
@@ -331,22 +307,22 @@ const PRODUCTS = [
   },
   {
     "id": 15,
-    "name": "Hania Relaxed Kurta",
+    "name": "Hania Olive Relaxed",
     "category": "pret",
     "categoryName": "Pret Collection",
     "price": 6699,
-    "description": "An easy everyday design with a comfortable, flattering fit.",
+    "description": "Relaxed olive kurta with wooden buttons and wide leg trousers.",
     "fabric": "Viscose",
-    "color": "Off White",
+    "color": "Olive Green",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/pret-01.jpg",
+    "image": "./images/pret-06.jpg",
     "images": [
-      "./images/pret-01.jpg"
+      "./images/pret-06.jpg"
     ],
     "badge": "",
     "popularity": 62,
@@ -354,22 +330,22 @@ const PRODUCTS = [
   },
   {
     "id": 16,
-    "name": "Areeba Office Pret",
+    "name": "Areeba Ecru Angrakha",
     "category": "pret",
     "categoryName": "Pret Collection",
     "price": 7499,
-    "description": "Structured stitching with a refined neckline finish.",
+    "description": "Ecru angrakha style kurta with contrast ties and slim trousers.",
     "fabric": "Khaddar",
-    "color": "Charcoal",
+    "color": "Ecru",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/pret-01.jpg",
+    "image": "./images/pret-07.jpg",
     "images": [
-      "./images/pret-01.jpg"
+      "./images/pret-07.jpg"
     ],
     "badge": "best",
     "popularity": 95,
@@ -377,13 +353,13 @@ const PRODUCTS = [
   },
   {
     "id": 17,
-    "name": "Dua Essential Kurta",
+    "name": "Mahnoor Rust Shirt",
     "category": "pret",
     "categoryName": "Pret Collection",
     "price": 8199,
-    "description": "A wardrobe essential designed for effortless styling.",
-    "fabric": "Linen Blend",
-    "color": "Dusty Rose",
+    "description": "Rust cambric shirt kurta with a cream printed placket and cotton shalwar.",
+    "fabric": "Cambric",
+    "color": "Rust",
     "sizes": [
       "S",
       "M",
@@ -391,47 +367,23 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/pret-01.jpg",
+    "image": "./images/pret-08.jpg",
     "images": [
-      "./images/pret-01.jpg"
+      "./images/pret-08.jpg"
     ],
     "badge": "",
     "popularity": 88,
     "added": 983
   },
   {
-    "id": 18,
-    "name": "Emaan Draped Pret",
-    "category": "pret",
-    "categoryName": "Pret Collection",
-    "price": 8999,
-    "description": "A ready to wear kurta cut for a clean, modern silhouette.",
-    "fabric": "Cambric",
-    "color": "Navy",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/pret-01.jpg",
-    "images": [
-      "./images/pret-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 81,
-    "added": 982
-  },
-  {
     "id": 19,
-    "name": "Zarina Luxury Pret",
+    "name": "Noor Champagne Organza",
     "category": "luxury",
     "categoryName": "Luxury Pret",
     "price": 12999,
-    "description": "A luxury pret ensemble finished with fine gold thread embroidery.",
-    "fabric": "Raw Silk",
-    "color": "Midnight Navy",
+    "description": "Champagne organza three piece with sequin thread work and raw silk trousers.",
+    "fabric": "Organza",
+    "color": "Champagne Gold",
     "sizes": [
       "XS",
       "S",
@@ -449,22 +401,22 @@ const PRODUCTS = [
   },
   {
     "id": 20,
-    "name": "Mehrunisa Silk Ensemble",
+    "name": "Sahiba Emerald Silk",
     "category": "luxury",
     "categoryName": "Luxury Pret",
     "price": 15699,
-    "description": "Hand finished detailing on flowing silk for a graceful drape.",
-    "fabric": "Organza",
-    "color": "Champagne Gold",
+    "description": "Emerald raw silk kameez with gold zari borders and an organza dupatta.",
+    "fabric": "Raw Silk",
+    "color": "Emerald Green",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/luxury-01.jpg",
+    "image": "./images/luxury-02.jpg",
     "images": [
-      "./images/luxury-01.jpg"
+      "./images/luxury-02.jpg"
     ],
     "badge": "new",
     "popularity": 87,
@@ -472,22 +424,22 @@ const PRODUCTS = [
   },
   {
     "id": 21,
-    "name": "Anaya Gold Thread Suit",
+    "name": "Aleena Pearl Net",
     "category": "luxury",
     "categoryName": "Luxury Pret",
     "price": 18499,
-    "description": "Refined luxury tailoring with a softly structured silhouette.",
-    "fabric": "Chiffon",
-    "color": "Deep Emerald",
+    "description": "Ivory net shirt with pearl hand work over a silk slip and net dupatta.",
+    "fabric": "Net",
+    "color": "Pearl White",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/luxury-01.jpg",
+    "image": "./images/luxury-03.jpg",
     "images": [
-      "./images/luxury-01.jpg"
+      "./images/luxury-03.jpg"
     ],
     "badge": "",
     "popularity": 80,
@@ -495,13 +447,13 @@ const PRODUCTS = [
   },
   {
     "id": 22,
-    "name": "Shehr e Noor Luxe",
+    "name": "Mahjabeen Wine Velvet",
     "category": "luxury",
     "categoryName": "Luxury Pret",
     "price": 21199,
-    "description": "Delicate organza layering with subtle metallic accents.",
-    "fabric": "Silk Blend",
-    "color": "Pearl White",
+    "description": "Wine velvet kameez with antique gold embroidery and jamawar trousers.",
+    "fabric": "Velvet",
+    "color": "Wine",
     "sizes": [
       "S",
       "M",
@@ -509,9 +461,9 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/luxury-01.jpg",
+    "image": "./images/luxury-04.jpg",
     "images": [
-      "./images/luxury-01.jpg"
+      "./images/luxury-04.jpg"
     ],
     "badge": "best",
     "popularity": 73,
@@ -519,13 +471,13 @@ const PRODUCTS = [
   },
   {
     "id": 23,
-    "name": "Roshni Organza Set",
+    "name": "Anaya Powder Chiffon",
     "category": "luxury",
     "categoryName": "Luxury Pret",
     "price": 23999,
-    "description": "A statement luxe piece designed for evening gatherings.",
-    "fabric": "Velvet Touch",
-    "color": "Wine",
+    "description": "Powder pink chiffon suit with silver dabka work and a scalloped dupatta.",
+    "fabric": "Chiffon",
+    "color": "Powder Pink",
     "sizes": [
       "XS",
       "S",
@@ -533,9 +485,9 @@ const PRODUCTS = [
       "L",
       "XL"
     ],
-    "image": "./images/luxury-01.jpg",
+    "image": "./images/luxury-05.jpg",
     "images": [
-      "./images/luxury-01.jpg"
+      "./images/luxury-05.jpg"
     ],
     "badge": "",
     "popularity": 66,
@@ -543,22 +495,22 @@ const PRODUCTS = [
   },
   {
     "id": 24,
-    "name": "Falak Silk Pret",
+    "name": "Rania Ink Blue Jamawar",
     "category": "luxury",
     "categoryName": "Luxury Pret",
     "price": 26699,
-    "description": "Rich fabric with restrained embellishment for quiet luxury.",
-    "fabric": "Raw Silk",
-    "color": "Midnight Navy",
+    "description": "Ink blue jamawar three piece with copper zari stripes and silk dupatta.",
+    "fabric": "Jamawar",
+    "color": "Ink Blue",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/luxury-01.jpg",
+    "image": "./images/luxury-06.jpg",
     "images": [
-      "./images/luxury-01.jpg"
+      "./images/luxury-06.jpg"
     ],
     "badge": "",
     "popularity": 99,
@@ -566,22 +518,22 @@ const PRODUCTS = [
   },
   {
     "id": 25,
-    "name": "Gulnaz Luxe Ensemble",
+    "name": "Zahra Sand Tissue",
     "category": "luxury",
     "categoryName": "Luxury Pret",
     "price": 29499,
-    "description": "Elegant embroidery placed along the neckline and cuffs.",
-    "fabric": "Organza",
-    "color": "Champagne Gold",
+    "description": "Sand tissue silk kameez with tonal resham work and organza dupatta.",
+    "fabric": "Tissue Silk",
+    "color": "Sand Beige",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/luxury-01.jpg",
+    "image": "./images/luxury-07.jpg",
     "images": [
-      "./images/luxury-01.jpg"
+      "./images/luxury-07.jpg"
     ],
     "badge": "best",
     "popularity": 92,
@@ -589,13 +541,13 @@ const PRODUCTS = [
   },
   {
     "id": 26,
-    "name": "Sahiba Signature Luxe",
+    "name": "Elaina Plum Masuri",
     "category": "luxury",
     "categoryName": "Luxury Pret",
     "price": 32199,
-    "description": "A polished luxury design suited to special occasions.",
-    "fabric": "Chiffon",
-    "color": "Deep Emerald",
+    "description": "Plum masuri suit with mirror and thread accents and a chiffon dupatta.",
+    "fabric": "Masuri",
+    "color": "Plum",
     "sizes": [
       "S",
       "M",
@@ -603,47 +555,23 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/luxury-01.jpg",
+    "image": "./images/luxury-08.jpg",
     "images": [
-      "./images/luxury-01.jpg"
+      "./images/luxury-08.jpg"
     ],
     "badge": "",
     "popularity": 85,
     "added": 973
   },
   {
-    "id": 27,
-    "name": "Mahira Silk Drape",
-    "category": "luxury",
-    "categoryName": "Luxury Pret",
-    "price": 34999,
-    "description": "A luxury pret ensemble finished with fine gold thread embroidery.",
-    "fabric": "Silk Blend",
-    "color": "Pearl White",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/luxury-01.jpg",
-    "images": [
-      "./images/luxury-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 78,
-    "added": 972
-  },
-  {
     "id": 28,
-    "name": "Nayab Formal Gown",
+    "name": "Nazneen Black Column",
     "category": "formal",
     "categoryName": "Formal Wear",
     "price": 9999,
-    "description": "A tailored formal silhouette designed for evening occasions.",
+    "description": "Black crepe column kameez with silver thread borders and straight trousers.",
     "fabric": "Crepe",
-    "color": "Midnight Navy",
+    "color": "Jet Black",
     "sizes": [
       "XS",
       "S",
@@ -661,22 +589,22 @@ const PRODUCTS = [
   },
   {
     "id": 29,
-    "name": "Mahnoor Formal Suit",
+    "name": "Saira Ivory Cape",
     "category": "formal",
     "categoryName": "Formal Wear",
     "price": 12099,
-    "description": "Clean lines and a graceful fall for a confident formal look.",
-    "fabric": "Silk Crepe",
-    "color": "Black",
+    "description": "Ivory silk formal with an embroidered cape and flared trousers.",
+    "fabric": "Silk",
+    "color": "Ivory",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/formal-01.jpg",
+    "image": "./images/formal-02.jpg",
     "images": [
-      "./images/formal-01.jpg"
+      "./images/formal-02.jpg"
     ],
     "badge": "new",
     "popularity": 84,
@@ -684,22 +612,22 @@ const PRODUCTS = [
   },
   {
     "id": 30,
-    "name": "Elara Evening Formal",
+    "name": "Kiran Teal Anarkali",
     "category": "formal",
     "categoryName": "Formal Wear",
     "price": 14199,
-    "description": "Structured formal wear with a softly flared hem.",
-    "fabric": "Georgette",
-    "color": "Deep Teal",
+    "description": "Teal chiffon anarkali with gold hem embroidery and churidar.",
+    "fabric": "Chiffon",
+    "color": "Teal",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/formal-01.jpg",
+    "image": "./images/formal-03.jpg",
     "images": [
-      "./images/formal-01.jpg"
+      "./images/formal-03.jpg"
     ],
     "badge": "",
     "popularity": 77,
@@ -707,13 +635,13 @@ const PRODUCTS = [
   },
   {
     "id": 31,
-    "name": "Sitara Formal Ensemble",
+    "name": "Mehak Maroon Peplum",
     "category": "formal",
     "categoryName": "Formal Wear",
     "price": 16399,
-    "description": "A refined evening design with minimal, elegant detailing.",
+    "description": "Maroon jacquard peplum with zari waist detail and a straight sharara.",
     "fabric": "Jacquard",
-    "color": "Bronze",
+    "color": "Maroon",
     "sizes": [
       "S",
       "M",
@@ -721,9 +649,9 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/formal-01.jpg",
+    "image": "./images/formal-04.jpg",
     "images": [
-      "./images/formal-01.jpg"
+      "./images/formal-04.jpg"
     ],
     "badge": "best",
     "popularity": 70,
@@ -731,13 +659,13 @@ const PRODUCTS = [
   },
   {
     "id": 32,
-    "name": "Zoha Tailored Formal",
+    "name": "Dua Grey Sharara",
     "category": "formal",
     "categoryName": "Formal Wear",
     "price": 18499,
-    "description": "Timeless formal tailoring in a rich, fluid fabric.",
-    "fabric": "Crepe",
-    "color": "Ivory",
+    "description": "Steel grey short shirt with silver sequin scatter and a matching sharara.",
+    "fabric": "Organza",
+    "color": "Steel Grey",
     "sizes": [
       "XS",
       "S",
@@ -745,9 +673,9 @@ const PRODUCTS = [
       "L",
       "XL"
     ],
-    "image": "./images/formal-01.jpg",
+    "image": "./images/formal-05.jpg",
     "images": [
-      "./images/formal-01.jpg"
+      "./images/formal-05.jpg"
     ],
     "badge": "",
     "popularity": 63,
@@ -755,22 +683,22 @@ const PRODUCTS = [
   },
   {
     "id": 33,
-    "name": "Areej Formal Drape",
+    "name": "Fajr Bottle Green Gown",
     "category": "formal",
     "categoryName": "Formal Wear",
     "price": 20599,
-    "description": "An understated formal piece with a defined waistline.",
-    "fabric": "Silk Crepe",
-    "color": "Midnight Navy",
+    "description": "Bottle green velvet formal gown kameez with gold neckline work.",
+    "fabric": "Velvet",
+    "color": "Bottle Green",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/formal-01.jpg",
+    "image": "./images/formal-06.jpg",
     "images": [
-      "./images/formal-01.jpg"
+      "./images/formal-06.jpg"
     ],
     "badge": "",
     "popularity": 96,
@@ -778,22 +706,22 @@ const PRODUCTS = [
   },
   {
     "id": 34,
-    "name": "Warda Evening Set",
+    "name": "Iman Rose Gold Drape",
     "category": "formal",
     "categoryName": "Formal Wear",
     "price": 22699,
-    "description": "Sculpted formal wear finished with a subtle gold trim.",
-    "fabric": "Georgette",
-    "color": "Black",
+    "description": "Rose gold tissue formal with a draped front and cigarette pants.",
+    "fabric": "Tissue",
+    "color": "Rose Gold",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/formal-01.jpg",
+    "image": "./images/formal-07.jpg",
     "images": [
-      "./images/formal-01.jpg"
+      "./images/formal-07.jpg"
     ],
     "badge": "best",
     "popularity": 89,
@@ -801,13 +729,13 @@ const PRODUCTS = [
   },
   {
     "id": 35,
-    "name": "Amber Formal Silhouette",
+    "name": "Zainab Onyx Jacket",
     "category": "formal",
     "categoryName": "Formal Wear",
     "price": 24899,
-    "description": "A composed formal design for dinners and celebrations.",
-    "fabric": "Jacquard",
-    "color": "Deep Teal",
+    "description": "Onyx raw silk suit worn under a gold embroidered long jacket.",
+    "fabric": "Raw Silk",
+    "color": "Onyx & Gold",
     "sizes": [
       "S",
       "M",
@@ -815,47 +743,23 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/formal-01.jpg",
+    "image": "./images/formal-08.jpg",
     "images": [
-      "./images/formal-01.jpg"
+      "./images/formal-08.jpg"
     ],
     "badge": "",
     "popularity": 82,
     "added": 963
   },
   {
-    "id": 36,
-    "name": "Rania Formal Classic",
-    "category": "formal",
-    "categoryName": "Formal Wear",
-    "price": 26999,
-    "description": "A tailored formal silhouette designed for evening occasions.",
-    "fabric": "Crepe",
-    "color": "Bronze",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/formal-01.jpg",
-    "images": [
-      "./images/formal-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 75,
-    "added": 962
-  },
-  {
     "id": 37,
-    "name": "Sitara Shimmer Set",
+    "name": "Rida Rose Shimmer",
     "category": "party",
     "categoryName": "Party Wear",
     "price": 8999,
-    "description": "A shimmering party ensemble made for celebrations after dark.",
-    "fabric": "Sequin Net",
-    "color": "Rose Gold",
+    "description": "Rose pink sequin net shirt with a silk slip and shimmer dupatta.",
+    "fabric": "Net",
+    "color": "Rose Pink",
     "sizes": [
       "XS",
       "S",
@@ -873,22 +777,22 @@ const PRODUCTS = [
   },
   {
     "id": 38,
-    "name": "Noor Nights Party Wear",
+    "name": "Alina Midnight Sequin",
     "category": "party",
     "categoryName": "Party Wear",
     "price": 11599,
-    "description": "Fine sequin work arranged in a soft, flattering pattern.",
-    "fabric": "Shimmer Chiffon",
-    "color": "Champagne",
+    "description": "Midnight blue chiffon party suit with silver sequin sprays and trousers.",
+    "fabric": "Chiffon",
+    "color": "Midnight Blue",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/party-01.jpg",
+    "image": "./images/party-02.jpg",
     "images": [
-      "./images/party-01.jpg"
+      "./images/party-02.jpg"
     ],
     "badge": "new",
     "popularity": 81,
@@ -896,22 +800,22 @@ const PRODUCTS = [
   },
   {
     "id": 39,
-    "name": "Aleena Sequin Ensemble",
+    "name": "Amber Gold Gharara",
     "category": "party",
     "categoryName": "Party Wear",
     "price": 14199,
-    "description": "Sparkle balanced with elegant tailoring for a modern party look.",
-    "fabric": "Embellished Net",
-    "color": "Midnight Navy",
+    "description": "Antique gold organza short shirt with mirror work and a gharara.",
+    "fabric": "Organza",
+    "color": "Antique Gold",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/party-01.jpg",
+    "image": "./images/party-03.jpg",
     "images": [
-      "./images/party-01.jpg"
+      "./images/party-03.jpg"
     ],
     "badge": "",
     "popularity": 74,
@@ -919,13 +823,13 @@ const PRODUCTS = [
   },
   {
     "id": 40,
-    "name": "Zehra Glitter Drape",
+    "name": "Sadia Fuchsia Flare",
     "category": "party",
     "categoryName": "Party Wear",
     "price": 16899,
-    "description": "Delicate embellishment across a lightweight flowing base.",
-    "fabric": "Satin",
-    "color": "Silver Grey",
+    "description": "Fuchsia chiffon flared frock with gold gota trim and churidar.",
+    "fabric": "Chiffon",
+    "color": "Fuchsia",
     "sizes": [
       "S",
       "M",
@@ -933,9 +837,9 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/party-01.jpg",
+    "image": "./images/party-04.jpg",
     "images": [
-      "./images/party-01.jpg"
+      "./images/party-04.jpg"
     ],
     "badge": "best",
     "popularity": 67,
@@ -943,106 +847,12 @@ const PRODUCTS = [
   },
   {
     "id": 41,
-    "name": "Mina Party Silhouette",
+    "name": "Hina Silver Frost",
     "category": "party",
     "categoryName": "Party Wear",
     "price": 19499,
-    "description": "A festive design that catches light without feeling heavy.",
-    "fabric": "Sequin Net",
-    "color": "Plum",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/party-01.jpg",
-    "images": [
-      "./images/party-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 100,
-    "added": 956
-  },
-  {
-    "id": 42,
-    "name": "Alina Evening Sparkle",
-    "category": "party",
-    "categoryName": "Party Wear",
-    "price": 22099,
-    "description": "Party wear finished with a graceful draped panel.",
-    "fabric": "Shimmer Chiffon",
-    "color": "Rose Gold",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/party-01.jpg",
-    "images": [
-      "./images/party-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 93,
-    "added": 955
-  },
-  {
-    "id": 43,
-    "name": "Sahar Party Luxe",
-    "category": "party",
-    "categoryName": "Party Wear",
-    "price": 24699,
-    "description": "Hand placed sequins along the bodice and sleeves.",
-    "fabric": "Embellished Net",
-    "color": "Champagne",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "image": "./images/party-01.jpg",
-    "images": [
-      "./images/party-01.jpg"
-    ],
-    "badge": "best",
-    "popularity": 86,
-    "added": 954
-  },
-  {
-    "id": 44,
-    "name": "Kiran Shimmer Suit",
-    "category": "party",
-    "categoryName": "Party Wear",
-    "price": 27399,
-    "description": "A confident celebration piece with refined sparkle.",
-    "fabric": "Satin",
-    "color": "Midnight Navy",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "image": "./images/party-01.jpg",
-    "images": [
-      "./images/party-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 79,
-    "added": 953
-  },
-  {
-    "id": 45,
-    "name": "Iman Party Ensemble",
-    "category": "party",
-    "categoryName": "Party Wear",
-    "price": 29999,
-    "description": "A shimmering party ensemble made for celebrations after dark.",
-    "fabric": "Sequin Net",
+    "description": "Silver grey tissue party suit with crystal beading and a net dupatta.",
+    "fabric": "Tissue",
     "color": "Silver Grey",
     "sizes": [
       "XS",
@@ -1051,23 +861,93 @@ const PRODUCTS = [
       "L",
       "XL"
     ],
-    "image": "./images/party-01.jpg",
+    "image": "./images/party-05.jpg",
     "images": [
-      "./images/party-01.jpg"
+      "./images/party-05.jpg"
     ],
     "badge": "",
-    "popularity": 72,
-    "added": 952
+    "popularity": 100,
+    "added": 956
+  },
+  {
+    "id": 42,
+    "name": "Mina Coral Bloom",
+    "category": "party",
+    "categoryName": "Party Wear",
+    "price": 22099,
+    "description": "Coral organza kameez with 3D floral appliqué and silk trousers.",
+    "fabric": "Organza",
+    "color": "Coral",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "./images/party-06.jpg",
+    "images": [
+      "./images/party-06.jpg"
+    ],
+    "badge": "",
+    "popularity": 93,
+    "added": 955
+  },
+  {
+    "id": 43,
+    "name": "Laiba Champagne Kalidar",
+    "category": "party",
+    "categoryName": "Party Wear",
+    "price": 24699,
+    "description": "Champagne kalidar frock with pearl drops and a matching dupatta.",
+    "fabric": "Net",
+    "color": "Champagne",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "./images/party-07.jpg",
+    "images": [
+      "./images/party-07.jpg"
+    ],
+    "badge": "best",
+    "popularity": 86,
+    "added": 954
+  },
+  {
+    "id": 44,
+    "name": "Noor Aubergine Glow",
+    "category": "party",
+    "categoryName": "Party Wear",
+    "price": 27399,
+    "description": "Aubergine velvet party suit with copper sequin borders and straight pants.",
+    "fabric": "Velvet",
+    "color": "Aubergine",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "./images/party-08.jpg",
+    "images": [
+      "./images/party-08.jpg"
+    ],
+    "badge": "",
+    "popularity": 79,
+    "added": 953
   },
   {
     "id": 46,
-    "name": "Noor Bridal Heritage",
+    "name": "Gulnaar Crimson Lehenga",
     "category": "bridal",
     "categoryName": "Bridal Collection",
     "price": 49999,
-    "description": "A hand embroidered bridal ensemble crafted for the main ceremony.",
-    "fabric": "Hand Embroidered Silk",
-    "color": "Ivory Gold",
+    "description": "Crimson velvet bridal lehenga with heavy gold zardozi and a net dupatta.",
+    "fabric": "Velvet",
+    "color": "Crimson Red",
     "sizes": [
       "XS",
       "S",
@@ -1085,22 +965,22 @@ const PRODUCTS = [
   },
   {
     "id": 47,
-    "name": "Shehnai Bridal Ensemble",
+    "name": "Mehrunisa Ivory Nikah",
     "category": "bridal",
     "categoryName": "Bridal Collection",
     "price": 67499,
-    "description": "Detailed zardozi work across the bodice, sleeves and hem.",
-    "fabric": "Zardozi Net",
-    "color": "Deep Maroon",
+    "description": "Ivory silk nikah suit with silver dabka, pearl work and two dupattas.",
+    "fabric": "Silk",
+    "color": "Ivory & Silver",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/bridal-01.jpg",
+    "image": "./images/bridal-02.jpg",
     "images": [
-      "./images/bridal-01.jpg"
+      "./images/bridal-02.jpg"
     ],
     "badge": "new",
     "popularity": 78,
@@ -1108,106 +988,12 @@ const PRODUCTS = [
   },
   {
     "id": 48,
-    "name": "Gulbahar Bridal Couture",
+    "name": "Roshni Maroon Sharara",
     "category": "bridal",
     "categoryName": "Bridal Collection",
     "price": 84999,
-    "description": "Traditional craftsmanship shaped into a modern bridal silhouette.",
-    "fabric": "Heavy Organza",
-    "color": "Champagne",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "image": "./images/bridal-01.jpg",
-    "images": [
-      "./images/bridal-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 71,
-    "added": 948
-  },
-  {
-    "id": 49,
-    "name": "Mehrbano Bridal Set",
-    "category": "bridal",
-    "categoryName": "Bridal Collection",
-    "price": 102499,
-    "description": "A layered bridal set finished with an embroidered dupatta.",
-    "fabric": "Bridal Jamawar",
-    "color": "Rose Ivory",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "image": "./images/bridal-01.jpg",
-    "images": [
-      "./images/bridal-01.jpg"
-    ],
-    "badge": "best",
-    "popularity": 64,
-    "added": 947
-  },
-  {
-    "id": 50,
-    "name": "Zeenat Bridal Couture",
-    "category": "bridal",
-    "categoryName": "Bridal Collection",
-    "price": 119999,
-    "description": "Fine bridal detailing with a balanced, wearable weight.",
-    "fabric": "Hand Embroidered Silk",
-    "color": "Royal Red",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/bridal-01.jpg",
-    "images": [
-      "./images/bridal-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 97,
-    "added": 946
-  },
-  {
-    "id": 51,
-    "name": "Anarkali Bridal Grace",
-    "category": "bridal",
-    "categoryName": "Bridal Collection",
-    "price": 137499,
-    "description": "Classic bridal artistry in a soft ivory and gold palette.",
-    "fabric": "Zardozi Net",
-    "color": "Ivory Gold",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/bridal-01.jpg",
-    "images": [
-      "./images/bridal-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 90,
-    "added": 945
-  },
-  {
-    "id": 52,
-    "name": "Roshan Bridal Classic",
-    "category": "bridal",
-    "categoryName": "Bridal Collection",
-    "price": 154999,
-    "description": "An heirloom inspired bridal design with intricate borders.",
-    "fabric": "Heavy Organza",
+    "description": "Deep maroon bridal sharara set with antique gold kora work.",
+    "fabric": "Jamawar",
     "color": "Deep Maroon",
     "sizes": [
       "XS",
@@ -1215,23 +1001,23 @@ const PRODUCTS = [
       "M",
       "L"
     ],
-    "image": "./images/bridal-01.jpg",
+    "image": "./images/bridal-03.jpg",
     "images": [
-      "./images/bridal-01.jpg"
+      "./images/bridal-03.jpg"
     ],
-    "badge": "best",
-    "popularity": 83,
-    "added": 944
+    "badge": "",
+    "popularity": 71,
+    "added": 948
   },
   {
-    "id": 53,
-    "name": "Sultana Bridal Ensemble",
+    "id": 49,
+    "name": "Zeenat Gold Walima",
     "category": "bridal",
     "categoryName": "Bridal Collection",
-    "price": 172499,
-    "description": "Bridal couture created for a graceful, memorable entrance.",
-    "fabric": "Bridal Jamawar",
-    "color": "Champagne",
+    "price": 102499,
+    "description": "Old gold walima gown kameez with tonal zari work and a tissue dupatta.",
+    "fabric": "Tissue",
+    "color": "Old Gold",
     "sizes": [
       "S",
       "M",
@@ -1239,23 +1025,23 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/bridal-01.jpg",
+    "image": "./images/bridal-04.jpg",
     "images": [
-      "./images/bridal-01.jpg"
+      "./images/bridal-04.jpg"
     ],
-    "badge": "",
-    "popularity": 76,
-    "added": 943
+    "badge": "best",
+    "popularity": 64,
+    "added": 947
   },
   {
-    "id": 54,
-    "name": "Mahtab Bridal Couture",
+    "id": 50,
+    "name": "Anaya Rani Pink Gharara",
     "category": "bridal",
     "categoryName": "Bridal Collection",
-    "price": 189999,
-    "description": "A hand embroidered bridal ensemble crafted for the main ceremony.",
-    "fabric": "Hand Embroidered Silk",
-    "color": "Rose Ivory",
+    "price": 119999,
+    "description": "Rani pink mehndi gharara set with mirror and gota work.",
+    "fabric": "Raw Silk",
+    "color": "Rani Pink",
     "sizes": [
       "XS",
       "S",
@@ -1263,23 +1049,93 @@ const PRODUCTS = [
       "L",
       "XL"
     ],
-    "image": "./images/bridal-01.jpg",
+    "image": "./images/bridal-05.jpg",
     "images": [
-      "./images/bridal-01.jpg"
+      "./images/bridal-05.jpg"
     ],
     "badge": "",
-    "popularity": 69,
-    "added": 942
+    "popularity": 97,
+    "added": 946
+  },
+  {
+    "id": 51,
+    "name": "Shehnaaz Rust Angrakha",
+    "category": "bridal",
+    "categoryName": "Bridal Collection",
+    "price": 137499,
+    "description": "Rust bridal angrakha with gold hand embroidery and a farshi shalwar.",
+    "fabric": "Velvet",
+    "color": "Rust & Gold",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "./images/bridal-06.jpg",
+    "images": [
+      "./images/bridal-06.jpg"
+    ],
+    "badge": "",
+    "popularity": 90,
+    "added": 945
+  },
+  {
+    "id": 52,
+    "name": "Noor Jahan Emerald Set",
+    "category": "bridal",
+    "categoryName": "Bridal Collection",
+    "price": 154999,
+    "description": "Emerald bridal set with gold kundan-inspired embroidery and lehenga.",
+    "fabric": "Velvet",
+    "color": "Emerald & Gold",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "./images/bridal-07.jpg",
+    "images": [
+      "./images/bridal-07.jpg"
+    ],
+    "badge": "best",
+    "popularity": 83,
+    "added": 944
+  },
+  {
+    "id": 53,
+    "name": "Sahar Blush Reception",
+    "category": "bridal",
+    "categoryName": "Bridal Collection",
+    "price": 172499,
+    "description": "Blush reception gown kameez with pearl and crystal cascade work.",
+    "fabric": "Net",
+    "color": "Blush & Pearl",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "./images/bridal-08.jpg",
+    "images": [
+      "./images/bridal-08.jpg"
+    ],
+    "badge": "",
+    "popularity": 76,
+    "added": 943
   },
   {
     "id": 55,
-    "name": "Eid Noor Festive Set",
+    "name": "Eid Ivory Chikan",
     "category": "eid",
     "categoryName": "Eid Collection",
     "price": 6999,
-    "description": "A festive Eid ensemble with soft embroidery and a flowing dupatta.",
-    "fabric": "Chiffon",
-    "color": "Mint",
+    "description": "Ivory chikankari Eid suit with gold buti and an organza dupatta.",
+    "fabric": "Lawn",
+    "color": "Ivory",
     "sizes": [
       "XS",
       "S",
@@ -1297,22 +1153,22 @@ const PRODUCTS = [
   },
   {
     "id": 56,
-    "name": "Chand Raat Ensemble",
+    "name": "Eid Pista Green Joy",
     "category": "eid",
     "categoryName": "Eid Collection",
     "price": 8999,
-    "description": "Designed for Eid mornings with light, comfortable layering.",
-    "fabric": "Embroidered Lawn",
-    "color": "Powder Blue",
+    "description": "Pista green Eid three piece with gold gota trim and printed dupatta.",
+    "fabric": "Cambric",
+    "color": "Pista Green",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/eid-01.jpg",
+    "image": "./images/eid-02.jpg",
     "images": [
-      "./images/eid-01.jpg"
+      "./images/eid-02.jpg"
     ],
     "badge": "new",
     "popularity": 75,
@@ -1320,22 +1176,22 @@ const PRODUCTS = [
   },
   {
     "id": 57,
-    "name": "Eid Gulzar Suit",
+    "name": "Eid Sky Blue Grace",
     "category": "eid",
     "categoryName": "Eid Collection",
     "price": 10999,
-    "description": "Celebratory detailing kept elegant and easy to wear.",
-    "fabric": "Silk Blend",
-    "color": "Peach",
+    "description": "Sky blue chiffon Eid suit with silver thread florals and silk trousers.",
+    "fabric": "Chiffon",
+    "color": "Sky Blue",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/eid-01.jpg",
+    "image": "./images/eid-03.jpg",
     "images": [
-      "./images/eid-01.jpg"
+      "./images/eid-03.jpg"
     ],
     "badge": "",
     "popularity": 68,
@@ -1343,105 +1199,11 @@ const PRODUCTS = [
   },
   {
     "id": 58,
-    "name": "Meethi Eid Chiffon",
+    "name": "Eid Peach Blossom",
     "category": "eid",
     "categoryName": "Eid Collection",
     "price": 12999,
-    "description": "A pastel festive suit finished with fine lace trims.",
-    "fabric": "Organza",
-    "color": "Ivory",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "image": "./images/eid-01.jpg",
-    "images": [
-      "./images/eid-01.jpg"
-    ],
-    "badge": "best",
-    "popularity": 61,
-    "added": 937
-  },
-  {
-    "id": 59,
-    "name": "Eid Sitara Ensemble",
-    "category": "eid",
-    "categoryName": "Eid Collection",
-    "price": 14999,
-    "description": "Eid wear balancing tradition with a modern cut.",
-    "fabric": "Chiffon",
-    "color": "Soft Gold",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/eid-01.jpg",
-    "images": [
-      "./images/eid-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 94,
-    "added": 936
-  },
-  {
-    "id": 60,
-    "name": "Rehmat Eid Suit",
-    "category": "eid",
-    "categoryName": "Eid Collection",
-    "price": 16999,
-    "description": "Delicate work across the front panel for a festive finish.",
-    "fabric": "Embroidered Lawn",
-    "color": "Mint",
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/eid-01.jpg",
-    "images": [
-      "./images/eid-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 87,
-    "added": 935
-  },
-  {
-    "id": 61,
-    "name": "Eid Anaya Festive",
-    "category": "eid",
-    "categoryName": "Eid Collection",
-    "price": 18999,
-    "description": "A graceful festive design for family gatherings.",
-    "fabric": "Silk Blend",
-    "color": "Powder Blue",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "image": "./images/eid-01.jpg",
-    "images": [
-      "./images/eid-01.jpg"
-    ],
-    "badge": "best",
-    "popularity": 80,
-    "added": 934
-  },
-  {
-    "id": 62,
-    "name": "Bahar Eid Collection",
-    "category": "eid",
-    "categoryName": "Eid Collection",
-    "price": 20999,
-    "description": "Light festive layering suited to warm celebration days.",
+    "description": "Peach organza Eid kameez with pearl-trimmed neckline and cotton pants.",
     "fabric": "Organza",
     "color": "Peach",
     "sizes": [
@@ -1451,23 +1213,23 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/eid-01.jpg",
+    "image": "./images/eid-04.jpg",
     "images": [
-      "./images/eid-01.jpg"
+      "./images/eid-04.jpg"
     ],
-    "badge": "",
-    "popularity": 73,
-    "added": 933
+    "badge": "best",
+    "popularity": 61,
+    "added": 937
   },
   {
-    "id": 63,
-    "name": "Eid Roshni Set",
+    "id": 59,
+    "name": "Eid Lilac Shine",
     "category": "eid",
     "categoryName": "Eid Collection",
-    "price": 22999,
-    "description": "A festive Eid ensemble with soft embroidery and a flowing dupatta.",
-    "fabric": "Chiffon",
-    "color": "Ivory",
+    "price": 14999,
+    "description": "Lilac Eid suit with a sequin border and matching lawn dupatta.",
+    "fabric": "Lawn",
+    "color": "Soft Lilac",
     "sizes": [
       "XS",
       "S",
@@ -1475,23 +1237,93 @@ const PRODUCTS = [
       "L",
       "XL"
     ],
-    "image": "./images/eid-01.jpg",
+    "image": "./images/eid-05.jpg",
     "images": [
-      "./images/eid-01.jpg"
+      "./images/eid-05.jpg"
     ],
     "badge": "",
-    "popularity": 66,
-    "added": 932
+    "popularity": 94,
+    "added": 936
+  },
+  {
+    "id": 60,
+    "name": "Eid Mustard Festive",
+    "category": "eid",
+    "categoryName": "Eid Collection",
+    "price": 16999,
+    "description": "Mustard Eid suit with gold mirror buti and a printed shawl dupatta.",
+    "fabric": "Khaddar",
+    "color": "Mustard Gold",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "./images/eid-06.jpg",
+    "images": [
+      "./images/eid-06.jpg"
+    ],
+    "badge": "",
+    "popularity": 87,
+    "added": 935
+  },
+  {
+    "id": 61,
+    "name": "Eid Rose Beige Elegance",
+    "category": "eid",
+    "categoryName": "Eid Collection",
+    "price": 18999,
+    "description": "Rose beige silk Eid suit with tonal thread jaal and organza dupatta.",
+    "fabric": "Silk",
+    "color": "Rose Beige",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "./images/eid-07.jpg",
+    "images": [
+      "./images/eid-07.jpg"
+    ],
+    "badge": "best",
+    "popularity": 80,
+    "added": 934
+  },
+  {
+    "id": 62,
+    "name": "Eid Teal Celebration",
+    "category": "eid",
+    "categoryName": "Eid Collection",
+    "price": 20999,
+    "description": "Teal Eid three piece with copper embroidery panels and plain trousers.",
+    "fabric": "Cambric",
+    "color": "Teal",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "image": "./images/eid-08.jpg",
+    "images": [
+      "./images/eid-08.jpg"
+    ],
+    "badge": "",
+    "popularity": 73,
+    "added": 933
   },
   {
     "id": 64,
-    "name": "Summer Breeze Cotton Set",
+    "name": "Summer White Linen",
     "category": "summer",
     "categoryName": "Summer Collection",
     "price": 2999,
-    "description": "A breathable cotton set designed to stay comfortable all day.",
-    "fabric": "Cotton",
-    "color": "White",
+    "description": "White linen summer kurta with tonal stitching and wide cotton trousers.",
+    "fabric": "Linen",
+    "color": "Pure White",
     "sizes": [
       "XS",
       "S",
@@ -1509,22 +1341,22 @@ const PRODUCTS = [
   },
   {
     "id": 65,
-    "name": "Sahil Linen Ensemble",
+    "name": "Summer Lemon Stripe",
     "category": "summer",
     "categoryName": "Summer Collection",
     "price": 3899,
-    "description": "Light linen tailoring for warm weather elegance.",
-    "fabric": "Linen",
-    "color": "Sand",
+    "description": "Lemon striped cotton summer suit with plain trousers and cotton dupatta.",
+    "fabric": "Cotton",
+    "color": "Lemon Yellow",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/summer-01.jpg",
+    "image": "./images/summer-02.jpg",
     "images": [
-      "./images/summer-01.jpg"
+      "./images/summer-02.jpg"
     ],
     "badge": "new",
     "popularity": 72,
@@ -1532,22 +1364,22 @@ const PRODUCTS = [
   },
   {
     "id": 66,
-    "name": "Dhoop Summer Kurta",
+    "name": "Summer Aqua Breeze",
     "category": "summer",
     "categoryName": "Summer Collection",
     "price": 4699,
-    "description": "Airy fabric with a relaxed, easy silhouette.",
-    "fabric": "Slub Cotton",
-    "color": "Sky Blue",
+    "description": "Aqua cambric summer suit with a white palm leaf print dupatta.",
+    "fabric": "Cambric",
+    "color": "Aqua",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/summer-01.jpg",
+    "image": "./images/summer-03.jpg",
     "images": [
-      "./images/summer-01.jpg"
+      "./images/summer-03.jpg"
     ],
     "badge": "",
     "popularity": 65,
@@ -1555,13 +1387,13 @@ const PRODUCTS = [
   },
   {
     "id": 67,
-    "name": "Aab e Noor Summer Set",
+    "name": "Summer Sand Cotton",
     "category": "summer",
     "categoryName": "Summer Collection",
     "price": 5599,
-    "description": "Minimal summer styling in a cool, neutral palette.",
+    "description": "Sand cotton summer kameez with rust hem embroidery and shalwar.",
     "fabric": "Cotton Net",
-    "color": "Mint",
+    "color": "Sand",
     "sizes": [
       "S",
       "M",
@@ -1569,9 +1401,9 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/summer-01.jpg",
+    "image": "./images/summer-04.jpg",
     "images": [
-      "./images/summer-01.jpg"
+      "./images/summer-04.jpg"
     ],
     "badge": "best",
     "popularity": 98,
@@ -1579,13 +1411,13 @@ const PRODUCTS = [
   },
   {
     "id": 68,
-    "name": "Nasim Cotton Suit",
+    "name": "Summer Coral Print",
     "category": "summer",
     "categoryName": "Summer Collection",
     "price": 6499,
-    "description": "Loose fitting comfort with a refined finish.",
-    "fabric": "Cotton",
-    "color": "Soft Grey",
+    "description": "Coral lawn summer suit with abstract white brush print and dupatta.",
+    "fabric": "Lawn",
+    "color": "Coral",
     "sizes": [
       "XS",
       "S",
@@ -1593,9 +1425,9 @@ const PRODUCTS = [
       "L",
       "XL"
     ],
-    "image": "./images/summer-01.jpg",
+    "image": "./images/summer-05.jpg",
     "images": [
-      "./images/summer-01.jpg"
+      "./images/summer-05.jpg"
     ],
     "badge": "",
     "popularity": 91,
@@ -1603,22 +1435,22 @@ const PRODUCTS = [
   },
   {
     "id": 69,
-    "name": "Rutba Summer Layer",
+    "name": "Summer Sage Airy",
     "category": "summer",
     "categoryName": "Summer Collection",
     "price": 7399,
-    "description": "A soft summer layer that works from morning to evening.",
-    "fabric": "Linen",
-    "color": "White",
+    "description": "Sage ditsy floral cotton summer three piece with plain trousers.",
+    "fabric": "Cotton",
+    "color": "Sage",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "image": "./images/summer-01.jpg",
+    "image": "./images/summer-06.jpg",
     "images": [
-      "./images/summer-01.jpg"
+      "./images/summer-06.jpg"
     ],
     "badge": "",
     "popularity": 84,
@@ -1626,22 +1458,22 @@ const PRODUCTS = [
   },
   {
     "id": 70,
-    "name": "Sabaa Linen Kurta",
+    "name": "Summer Sky Chambray",
     "category": "summer",
     "categoryName": "Summer Collection",
     "price": 8199,
-    "description": "Crisp cotton with clean, simple detailing.",
-    "fabric": "Slub Cotton",
-    "color": "Sand",
+    "description": "Chambray blue summer kurta with white embroidery and cotton pants.",
+    "fabric": "Chambray",
+    "color": "Chambray Blue",
     "sizes": [
       "XS",
       "S",
       "M",
       "L"
     ],
-    "image": "./images/summer-01.jpg",
+    "image": "./images/summer-07.jpg",
     "images": [
-      "./images/summer-01.jpg"
+      "./images/summer-07.jpg"
     ],
     "badge": "best",
     "popularity": 77,
@@ -1649,13 +1481,13 @@ const PRODUCTS = [
   },
   {
     "id": 71,
-    "name": "Chhaon Summer Ensemble",
+    "name": "Summer Peach Cool",
     "category": "summer",
     "categoryName": "Summer Collection",
     "price": 9099,
-    "description": "A light, wearable design made for summer days.",
-    "fabric": "Cotton Net",
-    "color": "Sky Blue",
+    "description": "Soft peach linen summer suit with cutwork sleeves and light dupatta.",
+    "fabric": "Linen",
+    "color": "Soft Peach",
     "sizes": [
       "S",
       "M",
@@ -1663,39 +1495,16 @@ const PRODUCTS = [
       "XL",
       "XXL"
     ],
-    "image": "./images/summer-01.jpg",
+    "image": "./images/summer-08.jpg",
     "images": [
-      "./images/summer-01.jpg"
+      "./images/summer-08.jpg"
     ],
     "badge": "",
     "popularity": 70,
     "added": 923
-  },
-  {
-    "id": 72,
-    "name": "Barish Summer Set",
-    "category": "summer",
-    "categoryName": "Summer Collection",
-    "price": 9999,
-    "description": "A breathable cotton set designed to stay comfortable all day.",
-    "fabric": "Cotton",
-    "color": "Mint",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "image": "./images/summer-01.jpg",
-    "images": [
-      "./images/summer-01.jpg"
-    ],
-    "badge": "",
-    "popularity": 63,
-    "added": 922
   }
 ];
+
 /* =====================================================================
    Noor's Collection — script.js
    Pure vanilla JavaScript. No build step, no dependencies.
