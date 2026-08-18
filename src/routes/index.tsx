@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Noor's Collection offers elegant women's clothing — lawn, pret, luxury pret, formal, party, bridal and Eid wear designed with grace and modern style.",
+          "Noor's Collection offers elegant women's clothing — lawn, pret and luxury pret wear designed with grace and modern style.",
       },
       { property: "og:title", content: "Noor's Collection — Elegant Fashion for Every Woman" },
       {
