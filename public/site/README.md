@@ -1,24 +1,24 @@
 # Noor's Collection — static website
 
-Plain HTML, CSS and vanilla JavaScript. No build step, no npm, no server code.
+This folder is the complete website: `index.html`, `style.css`, `script.js`, `images/`.
+All paths are relative (`./...`), so it works from any GitHub Pages URL, including
+project pages like `https://user.github.io/repo/`.
 
-## Files
-```
-index.html
-style.css
-script.js
-images/
-```
+## Deploying (recommended, already set up)
 
-## Deploy on GitHub Pages
-1. Create a repository and upload these files at the repository root.
-2. Settings → Pages → Source: `Deploy from a branch` → branch `main`, folder `/ (root)`.
-3. Your site is live at `https://<username>.github.io/<repo>/`.
+The workflow `.github/workflows/deploy-pages.yml` publishes this folder automatically.
 
-## Configure your details
-Open `script.js` and edit the `CONFIG` object at the very top of the file
-(WhatsApp number, email, Instagram and Facebook links).
+1. Push the repository to GitHub.
+2. Go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**.
+3. Push to `main` (or run the workflow manually from the Actions tab).
 
-## Add or edit products
-All products live in the `PRODUCTS` array in `script.js`, and categories in `CATEGORIES`.
-Each product has: id, name, category, price, description, fabric, color, sizes, image, badge.
+The live URL then opens straight into the website — not the README.
+
+## Alternative: deploy from a branch
+
+If you prefer **Settings → Pages → Source: Deploy from a branch**, GitHub serves the
+repository root, which shows the README. In that case, copy the contents of this
+folder (`index.html`, `style.css`, `script.js`, `images/`, `.nojekyll`) into the root
+of the repository, or into a `docs/` folder and pick `/docs` as the folder.
+
+`.nojekyll` is included so Jekyll never rewrites or skips any files.
