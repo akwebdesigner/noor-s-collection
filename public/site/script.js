@@ -587,12 +587,7 @@ const CONFIG = {
 const CATEGORIES = [
   { key: "lawn",    name: "Lawn Collection",   image: "./images/lawn-01.jpg",    desc: "Breathable printed lawn for effortless everyday wear." },
   { key: "pret",    name: "Pret Collection",   image: "./images/pret-01.jpg",    desc: "Ready to wear pieces cut for modern daily elegance." },
-  { key: "luxury",  name: "Luxury Pret",       image: "./images/luxury-01.jpg",  desc: "Fine fabrics and hand finished detail for special days." },
-  { key: "formal",  name: "Formal Wear",       image: "./images/formal-01.jpg",  desc: "Tailored silhouettes designed for evening occasions." },
-  { key: "party",   name: "Party Wear",        image: "./images/party-01.jpg",   desc: "Refined sparkle for celebrations and gatherings." },
-  { key: "bridal",  name: "Bridal Collection", image: "./images/bridal-01.jpg",  desc: "Hand embroidered couture for the most important day." },
-  { key: "eid",     name: "Eid Collection",    image: "./images/eid-01.jpg",     desc: "Festive designs made for warm family celebrations." },
-  { key: "summer",  name: "Summer Collection", image: "./images/summer-01.jpg",  desc: "Light cotton and linen for comfortable summer days." }
+  { key: "luxury",  name: "Luxury Pret",       image: "./images/luxury-01.jpg",  desc: "Fine fabrics and hand finished detail for special days." }
 ];
 
 /* =====================================================================
@@ -710,7 +705,7 @@ function viewHome() {
     </div>
   </section>
 
-  <div class="strip">Lawn &nbsp;&middot;&nbsp; Pret &nbsp;&middot;&nbsp; Luxury Pret &nbsp;&middot;&nbsp; Formal &nbsp;&middot;&nbsp; Party &nbsp;&middot;&nbsp; Bridal &nbsp;&middot;&nbsp; Eid</div>
+  <div class="strip">Lawn &nbsp;&middot;&nbsp; Pret &nbsp;&middot;&nbsp; Luxury Pret</div>
 
   <section class="section wrap">
     ${sectionHead("Explore", "Featured Categories", "Eight curated collections, each designed around a different moment in a woman's wardrobe.")}
@@ -890,7 +885,7 @@ function viewCategory(key) {
 function viewNew() {
   const list = PRODUCTS.filter(p => p.badge === "new").slice(0, 12);
   return `<section class="section wrap">
-    ${banner("New Arrivals", "The latest pieces to join the Noor's Collection wardrobe.", "./images/eid-01.jpg")}
+    ${banner("New Arrivals", "The latest pieces to join the Noor's Collection wardrobe.", "./images/luxury-02.jpg")}
     <div style="margin-top:30px">${sectionHead("Just In", "Newly Added", "")}${grid(list)}</div>
   </section>`;
 }
@@ -957,7 +952,7 @@ function viewAbout() {
         <h2 class="sec-title">A wardrobe built around grace</h2>
         <div class="rule left"></div>
         <p style="color:var(--muted);margin-top:18px">Noor&rsquo;s Collection is a women&rsquo;s clothing brand focused on elegant, wearable design. Each collection is built around a simple idea: clothing should feel considered, comfortable and quietly confident.</p>
-        <p style="color:var(--muted)">We work across lawn, pret, luxury pret, formal, party, bridal and festive wear, choosing fabrics for comfort and finishing details with care. Our design language stays deliberately restrained — clean silhouettes, soft palettes and detailing that lasts beyond a single season.</p>
+        <p style="color:var(--muted)">We work across lawn, pret and luxury pret, choosing fabrics for comfort and finishing details with care. Our design language stays deliberately restrained — clean silhouettes, soft palettes and detailing that lasts beyond a single season.</p>
         <p style="color:var(--muted)">Customers can browse the collection here and contact us directly to check availability, sizing or fabric details.</p>
         <div class="stats">
           <div class="stat"><b>8</b><span>Collections</span></div>
